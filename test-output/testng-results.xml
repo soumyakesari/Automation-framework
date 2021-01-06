@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-05T21:21:33 IST" name="Default suite" finished-at="2021-01-05T21:21:33 IST" duration-ms="49">
+    <groups>
+    </groups>
+    <test started-at="2021-01-05T21:21:33 IST" name="Default test" finished-at="2021-01-05T21:21:33 IST" duration-ms="49">
+      <class name="com.app.androidapp.scripts.TC_001_ValidateProductPage">
+        <test-method is-config="true" signature="startServer()[pri:0, instance:com.app.androidapp.scripts.TC_001_ValidateProductPage@6771beb3]" started-at="2021-01-05T21:21:30 IST" name="startServer" finished-at="2021-01-05T21:21:33 IST" duration-ms="2381" status="FAIL">
+          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
+            <message>
+              <![CDATA[The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\Keshav\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 0.0.0.0] 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\Keshav\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 0.0.0.0] 
+
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:155)
+at com.app.android.lib.BaseLib.startServer(BaseLib.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalAccessError: class org.openqa.selenium.net.UrlChecker tried to access private method 'void com.google.common.util.concurrent.SimpleTimeLimiter.<init>(java.util.concurrent.ExecutorService)' (org.openqa.selenium.net.UrlChecker and com.google.common.util.concurrent.SimpleTimeLimiter are in unnamed module of loader 'app')
+at org.openqa.selenium.net.UrlChecker.<init>(UrlChecker.java:67)
+at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:115)
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:142)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startServer -->
+        <test-method is-config="true" signature="_LaunchApp()[pri:0, instance:com.app.androidapp.scripts.TC_001_ValidateProductPage@6771beb3]" started-at="2021-01-05T21:21:33 IST" name="_LaunchApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1609861893306" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _LaunchApp -->
+        <test-method signature="tc_001_ValidateProduct()[pri:0, instance:com.app.androidapp.scripts.TC_001_ValidateProductPage@6771beb3]" started-at="2021-01-05T21:21:33 IST" name="tc_001_ValidateProduct" finished-at="2021-01-05T21:21:33 IST" duration-ms="0" status="SKIP">
+          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
+            <message>
+              <![CDATA[The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\Keshav\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 0.0.0.0] 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\Keshav\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 0.0.0.0] 
+
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:155)
+at com.app.android.lib.BaseLib.startServer(BaseLib.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalAccessError: class org.openqa.selenium.net.UrlChecker tried to access private method 'void com.google.common.util.concurrent.SimpleTimeLimiter.<init>(java.util.concurrent.ExecutorService)' (org.openqa.selenium.net.UrlChecker and com.google.common.util.concurrent.SimpleTimeLimiter are in unnamed module of loader 'app')
+at org.openqa.selenium.net.UrlChecker.<init>(UrlChecker.java:67)
+at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:115)
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:142)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_ValidateProduct -->
+        <test-method is-config="true" signature="shutDownApp()[pri:0, instance:com.app.androidapp.scripts.TC_001_ValidateProductPage@6771beb3]" started-at="2021-01-05T21:21:33 IST" name="shutDownApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1609861893316" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDownApp -->
+        <test-method is-config="true" signature="stopServer()[pri:0, instance:com.app.androidapp.scripts.TC_001_ValidateProductPage@6771beb3]" started-at="2021-01-05T21:21:33 IST" name="stopServer" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1609861893431" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServer -->
+      </class> <!-- com.app.androidapp.scripts.TC_001_ValidateProductPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
